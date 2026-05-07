@@ -26,5 +26,5 @@ jobs:
 
     - name: 봇 실행하기!
       env:
-        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }} # 아까 숨겨둔 웹훅 주소 꺼내오기
+        DISCORD_WEBHOOK: ${{ secrets.AO_DISCORD_WEBHOOK }} 
       run: python News_Bot/Day1/bot.py
